@@ -8,14 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <title>C&S</title>
+    <title>Componentes y sistemas</title>
 </head>
 <body>
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="img/computadora.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            COMPONENTES Y SISTEMAS INFORMATICOS
+            <img src="img/computadora.png" alt="Logo" width="30" height="24" class="d-inline align-text-top mx-2 mt-2">
+            <div class="d-inline">COMPONENTES Y SISTEMAS INFORMATICOS</div>
           </a>
         </div>
       </nav>
@@ -27,13 +27,13 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav nav">
-              <li class="nav-item active">
+              <li class="nav-item mx-4 link-opacity-25-hover active">
                 <a class="nav-link link-light" href="#">Inicio</a>
               </li>
-              <li class="nav-item ">
+              <li class="nav-item mx-4 link-opacity-25-hover">
                 <a class="nav-link link-light" href="#">Proyectos</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-4 link-opacity-25-hover">
                 <a class="nav-link link-light" href="#">Contacto</a>
               </li>
             </ul>
@@ -41,5 +41,54 @@
         </div>
       </nav>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="card">
+              <img src="img/hardware.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">hardware</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/code.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/componentes.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/pexels.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="card">
+              <img src="img/jumpers.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fibra optica</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
 </body>
 </html>
